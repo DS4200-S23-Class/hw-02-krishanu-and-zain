@@ -12,19 +12,29 @@
 <body>
     <div  id="data-abstraction"> 
         <div class="info">
-            <h1>Dataset Types</h1>
+            <h1 class="centered">Dataset Types</h1>
             <table>
                 <tr id="table-header">
                     <th>Data</th>
+                    <th>Link</th>
+                    <th>Dataset Type</th>
                 </tr>
                 <tr>
                     <td>Airports</td>
+                    <td><a href="data/Airports.csv">link</a></td>
+                    <!-- table or geometry?? -->
+                    <td>Table</td>
+
                 </tr>
                 <tr>
                     <td>Google-Web</td>
+                    <td><a href="data/Google-Web.txt">link</a></td>
+                    <td>Network</td>
                 </tr>
                 <tr>
                     <td>UFO</td>
+                    <td><a href="data/UFO.csv">link</a></td>
+                    <td>Table</td>
                 </tr>
             </table>
         </div>
@@ -33,24 +43,24 @@
             <h3 class='left'>UFO</h3>
                 <ul>
                     <li>DateTime: Attribute</li>
-                    <li class="subbullet">Ordered (Ordinal, Sequential)</li>
+                    <ul> <li class="subbullet">Ordered (Ordinal, Sequential)</li></ul>
                     <li>City: Attribute</li>
-                    <li class="subbullet">Categorical</li>
-                    <li>State: Attribute</li>
-                    <li class="subbullet">Categorical</li>
-                    <li>Country: Attribute</li>
-                    <li class="subbullet">Categorical</li>
-                    <li>Shape: Attribute</li>
-                    <li class="subbullet">Categorical</li>
-                    <li>Duration: Attribute</li>
-                    <li class="subbullet">Ordered (Quantitative, Sequential)</li>
+                    <ul><li class="subbullet">Categorical</li>
+                    <li>State: Attribute</li></ul>
+                    <ul><li class="subbullet">Categorical</li>
+                    <li>Country: Attribute</li></ul>
+                    <ul><li class="subbullet">Categorical</li>
+                    <li>Shape: Attribute</li></ul>
+                    <ul><li class="subbullet">Categorical</li>
+                    <li>Duration: Attribute</li></ul>
+                    <ul><li class="subbullet">Ordered (Quantitative, Sequential)</li></ul>
                     <li>Rows: Items</li>
                 </ul>
             <h3 class='left'>Airports</h3>
                 <ul>
                     <li>Airport Name: Attribute</li>
-                    <li class="subbullet">Categorical</li>
-                    <li>Latitude: Position</li>
+                    <ul><li class="subbullet">Categorical</li>
+                    <li>Latitude: Position</li></ul>
                     <li>Longitude: Position</li>
                     <li>Row: Items</li>
                 </ul>
@@ -63,12 +73,53 @@
         </div>
     </div>
     <div id="task-abstraction">
-        <h1>Task Abstraction</h1>
+        <h1 class="centered">Task Abstraction</h1>
+        <div class="flex-container">
+            <div>
+                <img src="img\vis1.png" alt="Daily maximum temperatures in Vancouver 1979-2021">
+                <p class="text">High-level task: </p>
+                <p class="text">Medium-level task: </p>
+                <p class="text">Low-level task: </p>
+                <p class="text">Target(s): </p>
+
+            </div>
+            <div>
+                <img src="img\vis2.png" alt="Number of times daily mean temperatures were 20 degrees Fahrenheit above normal">
+                <p class="text">High-level task: </p>
+                <p class="text">Medium-level task: </p>
+                <p class="text">Low-level task: </p>
+                <p class="text">Target(s): </p>
+            </div>
         
     </div>
-        <div id="decoration">
+    <div id="decoration" class="decor">
+        <!-- SVG's shapes -->
+        <svg width="100" height="100">
+            <circle cx="50" cy="50" r="40"/>
+        </svg>
+        <svg width="100" height="100">
+            <rect width="400" height="100"/>
+        </svg>
+        <svg width="100" height="100">
+            <circle cx="50" cy="50" r="40"/>
+        </svg>
+        <svg width="100" height="100">
+            <rect width="400" height="100"/>
+        </svg>
+        <svg width="100" height="100">
+            <circle cx="50" cy="50" r="40"/>
+        <svg width="100" height="100">
+            <rect width="400" height="100"/>
+        </svg>
+        <svg width="100" height="100">
+            <circle cx="50" cy="50" r="40"/>
     </div>
-    <h2> Acknowledgements </h2>
+    <div>
+        <h3 class="centered">Acknowledgements</h1>
+        <ul>
+            <li><a href="w3schools.com"> w3schools </a></li>
+        </ul>
+    </div>
 
 </body>
 

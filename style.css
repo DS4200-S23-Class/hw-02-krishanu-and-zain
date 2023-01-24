@@ -3,3 +3,57 @@ body {
 	font-family: Arial;
 }
 
+.centered {
+	text-align: center;
+}
+
+#table-header {
+	background-color: rgb(0,191,255);
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+tr {
+  border-bottom: 1px solid black;
+}
+
+td {
+  text-align: center;
+}
+
+.left {
+	text-align: left;
+}
+
+.flex-item {
+	flex: 30%;
+	padding: 5px;
+}
+
+.flex-container {
+	display: flex;
+}
+
+
+circle {
+	fill: CornflowerBlue;
+	opacity: 50%;
+}
+
+rect {
+	fill: CornflowerBlue;
+}
+
+circle:hover {
+	stroke: black;
+	stroke-width: 4;
+}
+
+rect:hover {
+	fill: LightCoral;
+}
