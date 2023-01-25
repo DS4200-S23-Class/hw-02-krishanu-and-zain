@@ -1,12 +1,18 @@
-/* Styling goes in this file */
+/* General Formatting */
 body {
 	font-family: Arial;
 }
 
+/* Alignment Formatting */
 .centered {
 	text-align: center;
 }
 
+.left {
+	text-align: left;
+}
+
+/* Table Formatting */
 #table-header {
 	background-color: rgb(0,191,255);
 }
@@ -18,27 +24,43 @@ table {
   border-collapse: collapse;
 }
 
-tr {
-  border-bottom: 1px solid black;
-}
-
 td {
   text-align: center;
 }
 
-.left {
-	text-align: left;
+tr {
+  border-bottom: 1px solid black;
 }
 
+
+/* Flexbox Formatting for Task Abstraction */
 .flex-item {
-	flex: 30%;
-	padding: 5px;
+	flex: 25%;
+	padding: 3px;
 }
 
 .flex-container {
 	display: flex;
 }
 
+img {
+	width: 100%;
+}
+
+/* Text Formatting for Task Abstraction */
+p {
+  text-align: left;
+  font-size: 14px;
+  color: DarkGreen;
+}
+
+/* Decoration Formatting*/
+#decoration {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  align-items: center;
+}
 
 circle {
 	fill: CornflowerBlue;
@@ -47,11 +69,13 @@ circle {
 
 rect {
 	fill: CornflowerBlue;
+	stroke: black;
+  stroke-width: 4px;
 }
 
 circle:hover {
 	stroke: black;
-	stroke-width: 4;
+	stroke-width: 5;
 }
 
 rect:hover {

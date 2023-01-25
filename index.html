@@ -3,13 +3,15 @@
 
 <!-- Meta data / set up -->
 <head>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
     <meta charset=utf-8/>
     <title>hw-02</title>
 </head>
 
 <!-- structure webpage inside of body -->
 <body>
+
+<!-- Data Abstraction Section -->
     <div  id="data-abstraction"> 
         <div class="info">
             <h1 class="centered">Dataset Types</h1>
@@ -20,9 +22,13 @@
                     <th>Dataset Type</th>
                 </tr>
                 <tr>
+                    <td>UFO</td>
+                    <td><a href="data/UFO.csv">link</a></td>
+                    <td>Table</td>
+                </tr>
+                <tr>
                     <td>Airports</td>
                     <td><a href="data/Airports.csv">link</a></td>
-                    <!-- table or geometry?? -->
                     <td>Table</td>
 
                 </tr>
@@ -30,11 +36,6 @@
                     <td>Google-Web</td>
                     <td><a href="data/Google-Web.txt">link</a></td>
                     <td>Network</td>
-                </tr>
-                <tr>
-                    <td>UFO</td>
-                    <td><a href="data/UFO.csv">link</a></td>
-                    <td>Table</td>
                 </tr>
             </table>
         </div>
@@ -72,53 +73,71 @@
                 </ul>
         </div>
     </div>
+
+<!-- Task Abstraction Section -->
     <div id="task-abstraction">
         <h1 class="centered">Task Abstraction</h1>
         <div class="flex-container">
             <div>
                 <img src="img\vis1.png" alt="Daily maximum temperatures in Vancouver 1979-2021">
-                <p class="text">High-level task: </p>
-                <p class="text">Medium-level task: </p>
-                <p class="text">Low-level task: </p>
-                <p class="text">Target(s): </p>
+                <p>High-level task: </p>
+                <p>Medium-level task: </p>
+                <p>Low-level task: </p>
+                <p>Target(s): </p>
 
             </div>
             <div>
                 <img src="img\vis2.png" alt="Number of times daily mean temperatures were 20 degrees Fahrenheit above normal">
-                <p class="text">High-level task: </p>
-                <p class="text">Medium-level task: </p>
-                <p class="text">Low-level task: </p>
-                <p class="text">Target(s): </p>
+                <p>High-level task: </p>
+                <p>Medium-level task: </p>
+                <p>Low-level task: </p>
+                <p>Target(s): </p>
             </div>
         
     </div>
-    <div id="decoration" class="decor">
-        <!-- SVG's shapes -->
+
+
+<!-- Decoration Section -->
+    <div id="decoration">
+
+        <!-- Shapes -->
         <svg width="100" height="100">
             <circle cx="50" cy="50" r="40"/>
         </svg>
         <svg width="100" height="100">
-            <rect width="400" height="100"/>
+            <rect width="300" height="100"/>
         </svg>
         <svg width="100" height="100">
             <circle cx="50" cy="50" r="40"/>
         </svg>
         <svg width="100" height="100">
-            <rect width="400" height="100"/>
+            <rect width="300" height="100"/>
         </svg>
         <svg width="100" height="100">
             <circle cx="50" cy="50" r="40"/>
+        </svg>
         <svg width="100" height="100">
-            <rect width="400" height="100"/>
+            <rect width="300" height="100"/>
         </svg>
         <svg width="100" height="100">
             <circle cx="50" cy="50" r="40"/>
+        </svg>
     </div>
+
+
+<!-- Acknowledgements Section -->
     <div>
         <h3 class="centered">Acknowledgements</h1>
-        <ul>
-            <li><a href="w3schools.com"> w3schools </a></li>
-        </ul>
+        <div>
+            <ul>
+                <li><a href="https://www.w3schools.com/css/css3_flexbox_container.asp">Flexbox Container</a></li>
+                <li><a href="https://www.w3schools.com/css/css_table.asp">Table Styling</a></li>
+                <li><a href="https://amosca01.github.io/DS4200-S23/">Course Website</a></li>
+                <li><a href="https://css-tricks.com/change-color-of-svg-on-hover/">Hover Formatting</a></li>
+                <li><a href="https://www.w3schools.com/cssref/css_colors.php">CSS Colors</a></li>
+            </ul>
+
+        </div>
     </div>
 
 </body>
