@@ -41,24 +41,17 @@ tr {
 
 .flex-container {
 	display: flex;
+	text-align: left;
 }
+.flex-container{
+  color: DarkGreen;
+}
+
 
 img {
 	width: 100%;
 }
 
-/* Text Formatting for Task Abstraction */
-p {
-  text-align: left;
-  font-size: 14px;
-  color: DarkGreen;
-}
-
-li {
-  text-align: left;
-  font-size: 14px;
-  color: DarkGreen;
-}
 
 /* Decoration Formatting*/
 #decoration {
